@@ -1,5 +1,5 @@
 {
-  "name": "get-canvas-max-size",
+  "name": "@oshimaryo/get-canvas-max-size",
   "version": "0.0.1",
   "description": "get the maximum size of the canvas element in the browser",
   "main": "index.js",
