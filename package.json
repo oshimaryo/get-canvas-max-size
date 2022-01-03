@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/oshimaryo/get-canvas-max-size/issues"
   },
-  "homepage": "https://github.com/oshimaryo/get-canvas-max-size#readme"
+  "homepage": "https://github.com/oshimaryo/get-canvas-max-size#readme",
+  "dependencies": {
+    "ua-parser-js": "^1.0.2"
+  }
 }
