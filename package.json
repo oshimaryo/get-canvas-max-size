@@ -1,6 +1,6 @@
 {
   "name": "@oshimaryo/get-canvas-max-size",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "get the maximum size of the canvas element in the browser",
   "main": "./lib/index.js",
   "scripts": {
@@ -18,7 +18,8 @@
     "url": "git+https://github.com/oshimaryo/get-canvas-max-size.git"
   },
   "keywords": [
-    "canvas"
+    "canvas",
+    "front-end"
   ],
   "author": "Ryo Oshima",
   "license": "MIT",
