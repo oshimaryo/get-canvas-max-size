@@ -2,7 +2,7 @@ const powersOfTwo = Array(29)
   .fill(0)
   .map((_, i) => Math.pow(2, i))
 
-// TODO: consider iPad OS
+// TODO: iPad OSの検証
 export const CanvasMaxSize = {
   Desktop: {
     Chrome: {
