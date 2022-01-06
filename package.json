@@ -7,7 +7,8 @@
     "clean": "rimraf lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
-    "prepublish": "npm run clean && npm run build"
+    "prepublish": "npm run clean && npm run build && npm run build-licenses",
+    "build-licenses": "license-checker --production --direct --customPath ./license-checker_customFormat.json --csv --out ./licenses.csv"
   },
   "files": [
     "lib",
@@ -21,7 +22,7 @@
     "canvas",
     "front-end"
   ],
-  "author": "Ryo Oshima",
+  "author": "Ryo Oshima <oshimaryo@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/oshimaryo/get-canvas-max-size/issues"
@@ -42,6 +43,7 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.7.0",
+    "license-checker": "^25.0.1",
     "rimraf": "^2.6.2"
   }
 }
