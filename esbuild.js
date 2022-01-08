@@ -6,7 +6,7 @@ const results = esbuild.buildSync({
   bundle: true,
   sourcemap: true,
   minify: true,
-  format: 'esm',
+  format: 'cjs',
   target: ['esnext']
 })
 
